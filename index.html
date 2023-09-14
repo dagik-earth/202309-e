@@ -18,11 +18,7 @@
         	<a-assets>
 		        <img id="map" src="images/map.jpg" crossorigin="anonymous" />
 		</a-assets>
-		<a-image
-                    src="images/map.jpg"
-                    scale="1 1 1"
-                    gps-entity-place="latitude: 35.0001; longitude: 135.0001;"
-                ></a-image>
+		<a-image src="#map" rotation="-20 0 0" scale="50 50 0" position="0 0 -50"></a-image>
             <a-camera gps-new-camera="simulateLatitude:35; simulateLongitude:135; gpsTimeInterval:36000;" rotation-reader ></a-camera>
 	</a-scene>
     </body>
