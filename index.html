@@ -16,11 +16,12 @@
 		vr-mode-ui='enabled: false' 
         >
 	        <a-assets>
-		        <img id="logo" src="images/320x132_DEP.png" crossorigin="anonymous" />
+			<img id="logo" src="images/logo.png" crossorigin="anonymous" />
+			<img id="mission" src="images/MISSION4.png" crossorigin="anonymous" />
 		        <img id="map" src="images/map.jpg" crossorigin="anonymous" />
 		</a-assets>
 	        <a-sphere
-		        radius = "70."
+		        radius = "80."
 		        position = "0 0. -500"
 		        material = "src: #map;"
 			gps-entity-place="latitude: 35.; longitude: 135.;"
@@ -33,8 +34,8 @@
 				easing : linear;
 				"
 	        ></a-sphere>
-		<a-image src="#logo" opacity="0.5" rotation="0 0 0" scale="3.2 1.32 1" position="-5 10 -30"></a-image>
-		<a-image src="#logo" opacity="0.5" rotation="0 0 0" scale="3.2 1.32 1" position="-5 -7 -30"></a-image>
+		<a-image src="#logo" rotation="0 0 0" scale="7.56 2.52 1" position="-1. 10.5 -30"></a-image>
+		<a-image src="#mission" rotation="0 0 0" scale="11.34 3.78 1" position="-0.3 -7 -30"></a-image>
             <a-camera gps-new-camera="simulateLatitude:35; simulateLongitude:135; gpsTimeInterval:36000;" rotation-reader ></a-camera>
         </a-scene>
     </body>
